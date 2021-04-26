@@ -1,0 +1,19 @@
+types:
+  coord_t: double
+  Pos:
+    x: coord_t
+    y: coord_t
+  UserId: string
+
+messages:
+  ClientRegisterMsg:
+    name: string
+  ServerRegisterMsg:
+  ClientUpdateMsg:
+    pos: Pos
+  ServerUpdateMsg:
+    user_id: UserId
+    name: string
+    pos: Pos
+  ServerDeleteMsg:
+    user_id: UserId
