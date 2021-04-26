@@ -64,7 +64,7 @@ const buf: Uint8Array = msg.serialize();
 
 From C++:
 
-````c++
+```c++
 #include "protocol.hpp"
 
 ClientUpdateMsg msg{4.2, 6.9};
@@ -91,7 +91,7 @@ if (type == Proto.ServerUpdateMsg.id) {
 } else {
   console.log("unknown message type", type);
 }
-````
+```
 
 From C++:
 

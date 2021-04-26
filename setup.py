@@ -8,7 +8,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="ubuf",
-    version="0.0.1",
+    version="0.0.2",
     description="Generate protocols for C++ and JS",
     long_description=long_description,
     long_description_content_type="text/markdown",
