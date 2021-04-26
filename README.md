@@ -23,8 +23,7 @@ Currently, C++ and Javascript are supported as target languages.
 2. Generate the code with:
    - `ubuf protocol.yml --lang js > protocol.js`
    - `ubuf protocol.yml --lang cpp > protocol.hpp`
-3. Put the `io` libraries in the same place as the protocol files.
-4. Profit!
+3. Profit!
 
 ## Example
 
