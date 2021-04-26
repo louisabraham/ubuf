@@ -53,6 +53,8 @@ messages:
 
 As you can see, it is divided in two sections, `types` and `messages`. The first define data types that can be used in messages.
 
+You can look at the generated code: [js](https://github.com/louisabraham/ubuf/blob/master/examples/protocol.js), [C++](https://github.com/louisabraham/ubuf/blob/master/examples/protocol.hpp).
+
 ### Write
 
 From JS:
