@@ -13,6 +13,10 @@ It takes a simple YAML file as input and produces compatible serialization and d
 
 Currently, C++ and Javascript are supported as target languages.
 
+## Installation
+
+    pip install ubuf
+
 ## Usage
 
 1. Write your protocol in a YAML file (`protocol.yml` for example)
